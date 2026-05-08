@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 ## Project
 
@@ -34,7 +34,7 @@ Examples:
 - UI design skill
 - Strategy generation skill
 
-Keep CLAUDE.md minimal.
+Keep AGENTS.md minimal.
 
 ---
 
@@ -128,11 +128,11 @@ before executing them.
 
 # Skill-based Development
 
-Detailed domain-specific instructions should NOT live in CLAUDE.md.
+Detailed domain-specific instructions should NOT live in AGENTS.md.
 
 Move specialized knowledge into skills.
 
-CLAUDE.md should only define:
+AGENTS.md should only define:
 
 - project-wide rules
 - architecture philosophy
@@ -256,7 +256,7 @@ Before Gemini integration:
 
 Prompt implementation details should live inside dedicated prompt skills.
 
-CLAUDE.md should only define shared high-level constraints.
+AGENTS.md should only define shared high-level constraints.
 
 Global rule:
 

@@ -1,0 +1,80 @@
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===========================
+# Flutter / Dart
+# ===========================
+apps/mobile/.dart_tool/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/.packages
+apps/mobile/build/
+apps/mobile/ios/Pods/
+apps/mobile/ios/.symlinks/
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+apps/mobile/android/key.properties
+apps/mobile/*.jks
+apps/mobile/coverage/
+apps/mobile/pubspec.lock
+
+# ===========================
+# Python / FastAPI
+# ===========================
+services/api/.venv/
+services/api/__pycache__/
+services/api/**/__pycache__/
+services/api/**/*.pyc
+services/api/**/*.pyo
+services/api/.pytest_cache/
+services/api/.mypy_cache/
+services/api/.ruff_cache/
+services/api/dist/
+services/api/*.egg-info/
+services/api/.uv/
+
+# ===========================
+# Environment variables
+# ===========================
+.env
+.env.local
+.env.*.local
+services/api/.env
+apps/mobile/.env
+
+# ===========================
+# Firebase / GCP
+# ===========================
+**/google-services.json
+**/GoogleService-Info.plist
+**/service-account*.json
+firebase-debug.log
+.firebase/
+firestore-debug.log
+ui-debug.log
+
+# ===========================
+# Docker
+# ===========================
+*.log
+docker-compose.override.yml
+
+# ===========================
+# Misc
+# ===========================
+*.swp
+*.swo
+*.bak
