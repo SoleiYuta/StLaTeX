@@ -1,0 +1,54 @@
+{
+  "mainGoal": "数学III 微積分を重点強化する",
+  "prioritySubjects": ["math", "english"],
+  "priorityUnits": [
+    {
+      "subject": "math",
+      "unit": "微積分",
+      "reason": "志望校頻出かつ現在の正答率が低いため",
+      "recommendedMinutes": 420
+    },
+    {
+      "subject": "english",
+      "unit": "長文読解",
+      "reason": "安定得点源として維持しつつ、二次試験の配点影響が大きいため",
+      "recommendedMinutes": 300
+    }
+  ],
+  "discardUnits": [
+    {
+      "subject": "math",
+      "unit": "整数",
+      "reason": "頻度が低く、短期得点期待値が低いため",
+      "risk": "出題された場合に失点リスクあり",
+      "reviewTiming": "7月以降に再評価"
+    }
+  ],
+  "riskAlerts": [
+    {
+      "type": "pace_delay",
+      "message": "化学の学習量が2週間連続で不足しています",
+      "severity": "medium"
+    },
+    {
+      "type": "sleep_shortage",
+      "message": "睡眠時間が短い日が続いているため、暗記効率の低下に注意してください",
+      "severity": "low"
+    }
+  ],
+  "weeklyPlan": [
+    {
+      "day": "Monday",
+      "tasks": ["数学 微積分 90分", "英語 長文 60分"]
+    },
+    {
+      "day": "Tuesday",
+      "tasks": ["数学 微積分 90分", "化学 理論分野 60分"]
+    },
+    {
+      "day": "Wednesday",
+      "tasks": ["英語 英作文 60分", "数学 微積分 90分"]
+    }
+  ],
+  "aiReasoningSummary": "数学IIIの微積分は志望校で頻出かつ現在の正答率が低いため、今週の最優先に設定しました。一方、整数は頻度が低く短期改善コストが高いため、今週は優先度を下げます。"
+}
